@@ -1,5 +1,5 @@
 {
-    "name": "psr/http-message-util",
+    "name": "fig/http-message-util",
     "description": "Utility classes and constants for use with PSR-7 (psr/http-message)",
     "keywords": ["psr", "psr-7", "http", "http-message", "request", "response"],
     "license": "MIT",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Psr\\Http\\Message\\": "src/"
+            "Fig\\Http\\Message\\": "src/"
         }
     },
     "extra": {
