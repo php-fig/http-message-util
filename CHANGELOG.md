@@ -1,0 +1,42 @@
+# Changelog
+
+All notable changes to this project will be documented in this file, in reverse chronological order by release.
+
+## 1.1.0 - 2016-09-19
+
+### Added
+
+- [#1](https://github.com/php-fig/http-message-util/pull/1) adds
+  `Fig\Http\Message\StatusCodeInterface`, with constants named after common
+  status reason phrases, with values indicating the status codes themselves.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
+## 1.0.0 - 2017-08-05
+
+### Added
+
+- Adds `Fig\Http\Message\RequestMethodInterface`, with constants covering the
+  most common HTTP request methods as specified by the IETF.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
