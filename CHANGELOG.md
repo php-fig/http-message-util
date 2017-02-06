@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 1.1.1 - 2017-02-06
+
+### Added
+
+- [#3](https://github.com/php-fig/http-message-util/pull/3) adds the constant
+  `StatusCodeInterface::STATUS_IM_A_TEAPOT` (418).
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 1.1.0 - 2016-09-19
 
 ### Added
