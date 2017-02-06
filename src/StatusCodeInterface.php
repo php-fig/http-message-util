@@ -5,8 +5,9 @@ namespace Fig\Http\Message;
 /**
  * Defines constants for common HTTP status code.
  *
- * @see https://tools.ietf.org/html/rfc2518#section-9.7
  * @see https://tools.ietf.org/html/rfc2295#section-8.1
+ * @see https://tools.ietf.org/html/rfc2324#section-2.3
+ * @see https://tools.ietf.org/html/rfc2518#section-9.7
  * @see https://tools.ietf.org/html/rfc2774#section-7
  * @see https://tools.ietf.org/html/rfc3229#section-10.4
  * @see https://tools.ietf.org/html/rfc4918#section-11
@@ -77,6 +78,7 @@ interface StatusCodeInterface
     const STATUS_UNSUPPORTED_MEDIA_TYPE = 415;
     const STATUS_RANGE_NOT_SATISFIABLE = 416;
     const STATUS_EXPECTATION_FAILED = 417;
+    const STATUS_IM_A_TEAPOT = 418;
     const STATUS_UNPROCESSABLE_ENTITY = 422;
     const STATUS_LOCKED = 423;
     const STATUS_FAILED_DEPENDENCY = 424;
