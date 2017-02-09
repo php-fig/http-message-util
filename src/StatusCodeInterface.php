@@ -34,11 +34,11 @@ namespace Fig\Http\Message;
  */
 interface StatusCodeInterface
 {
-    //Informational 1xx
+    // Informational 1xx
     const STATUS_CONTINUE = 100;
     const STATUS_SWITCHING_PROTOCOLS = 101;
     const STATUS_PROCESSING = 102;
-    //Successful 2xx
+    // Successful 2xx
     const STATUS_OK = 200;
     const STATUS_CREATED = 201;
     const STATUS_ACCEPTED = 202;
@@ -49,7 +49,7 @@ interface StatusCodeInterface
     const STATUS_MULTI_STATUS = 207;
     const STATUS_ALREADY_REPORTED = 208;
     const STATUS_IM_USED = 226;
-    //Redirection 3xx
+    // Redirection 3xx
     const STATUS_MULTIPLE_CHOICES = 300;
     const STATUS_MOVED_PERMANENTLY = 301;
     const STATUS_FOUND = 302;
@@ -59,7 +59,7 @@ interface StatusCodeInterface
     const STATUS_RESERVED = 306;
     const STATUS_TEMPORARY_REDIRECT = 307;
     const STATUS_PERMANENT_REDIRECT = 308;
-    //Client Error 4xx
+    // Client Errors 4xx
     const STATUS_BAD_REQUEST = 400;
     const STATUS_UNAUTHORIZED = 401;
     const STATUS_PAYMENT_REQUIRED = 402;
@@ -88,7 +88,7 @@ interface StatusCodeInterface
     const STATUS_TOO_MANY_REQUESTS = 429;
     const STATUS_REQUEST_HEADER_FIELDS_TOO_LARGE = 431;
     const STATUS_UNAVAILABLE_FOR_LEGAL_REASONS = 451;
-    //Server Error 5xx
+    // Server Errors 5xx
     const STATUS_INTERNAL_SERVER_ERROR = 500;
     const STATUS_NOT_IMPLEMENTED = 501;
     const STATUS_BAD_GATEWAY = 502;
