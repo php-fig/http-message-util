@@ -20,7 +20,7 @@ namespace Fig\Http\Message;
  * @see https://tools.ietf.org/html/rfc7231#section-6
  * @see https://tools.ietf.org/html/rfc7238#section-3
  * @see https://tools.ietf.org/html/rfc7725#section-3
- *
+ * @see https://tools.ietf.org/html/rfc7540#section-9.1.2
  * Usage:
  *
  * <code>
@@ -79,6 +79,7 @@ interface StatusCodeInterface
     const STATUS_RANGE_NOT_SATISFIABLE = 416;
     const STATUS_EXPECTATION_FAILED = 417;
     const STATUS_IM_A_TEAPOT = 418;
+    const STATUS_MISDIRECTED_REQUEST = 421;
     const STATUS_UNPROCESSABLE_ENTITY = 422;
     const STATUS_LOCKED = 423;
     const STATUS_FAILED_DEPENDENCY = 424;
