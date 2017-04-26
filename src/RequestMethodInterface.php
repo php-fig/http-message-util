@@ -23,6 +23,8 @@ interface RequestMethodInterface
 {
     const METHOD_HEAD    = 'HEAD';
     const METHOD_GET     = 'GET';
+    const METHOD_LINK    = 'LINK';
+    const METHOD_UNLINK  = 'UNLINK';
     const METHOD_POST    = 'POST';
     const METHOD_PUT     = 'PUT';
     const METHOD_PATCH   = 'PATCH';
