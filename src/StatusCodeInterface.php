@@ -21,6 +21,8 @@ namespace Fig\Http\Message;
  * @see https://tools.ietf.org/html/rfc7238#section-3
  * @see https://tools.ietf.org/html/rfc7725#section-3
  * @see https://tools.ietf.org/html/rfc7540#section-9.1.2
+ * @see https://tools.ietf.org/html/rfc8297#section-2
+ * @see https://tools.ietf.org/html/rfc8470#section-7
  * Usage:
  *
  * <code>
@@ -38,6 +40,7 @@ interface StatusCodeInterface
     const STATUS_CONTINUE = 100;
     const STATUS_SWITCHING_PROTOCOLS = 101;
     const STATUS_PROCESSING = 102;
+    const STATUS_EARLY_HINTS = 103;
     // Successful 2xx
     const STATUS_OK = 200;
     const STATUS_CREATED = 201;
@@ -83,6 +86,7 @@ interface StatusCodeInterface
     const STATUS_UNPROCESSABLE_ENTITY = 422;
     const STATUS_LOCKED = 423;
     const STATUS_FAILED_DEPENDENCY = 424;
+    const STATUS_TOO_EARLY = 425;
     const STATUS_UPGRADE_REQUIRED = 426;
     const STATUS_PRECONDITION_REQUIRED = 428;
     const STATUS_TOO_MANY_REQUESTS = 429;
