@@ -7,7 +7,7 @@ All notable changes to this project will be documented in this file, in reverse 
 ### Added
 
 - [#4](https://github.com/php-fig/http-message-util/pull/4) adds the constant
-  `StatusCodeInterface::STATUS_MIDIRECTED_REQUEST` (421).
+  `StatusCodeInterface::STATUS_MISDIRECTED_REQUEST` (421).
 
 ### Deprecated
 
