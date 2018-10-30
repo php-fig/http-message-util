@@ -1,6 +1,38 @@
 <?php
 
-namespace Fig\Http\Message;
+/**
+ * Defines constants for common HTTP request methods.
+ *
+ * Usage:
+ *
+ * <code>
+ * use Fig\Http\Message\Request;
+ *
+ * class RequestFactory implements RequestMethodInterface
+ * {
+ *     public static function factory(
+ *         $uri = '/',
+ *         $method = Request\METHOD_GET,
+ *         $data = []
+ *     ) {
+ *     }
+ * }
+ * </code>
+ */
+namespace Fig\Http\Message\Request
+{
+    const METHOD_HEAD    = 'HEAD';
+    const METHOD_GET     = 'GET';
+    const METHOD_POST    = 'POST';
+    const METHOD_PUT     = 'PUT';
+    const METHOD_PATCH   = 'PATCH';
+    const METHOD_DELETE  = 'DELETE';
+    const METHOD_PURGE   = 'PURGE';
+    const METHOD_OPTIONS = 'OPTIONS';
+    const METHOD_TRACE   = 'TRACE';
+    const METHOD_CONNECT = 'CONNECT';
+}
+
 
 /**
  * Defines constants for common HTTP status code.
@@ -26,15 +58,17 @@ namespace Fig\Http\Message;
  * Usage:
  *
  * <code>
+ * use Fig\Http\Message\Response;
+ *
  * class ResponseFactory implements StatusCodeInterface
  * {
- *     public function createResponse($code = self::STATUS_OK)
+ *     public function createResponse($code = Response\STATUS_OK)
  *     {
  *     }
  * }
  * </code>
  */
-interface StatusCodeInterface
+namespace Response
 {
     // Informational 1xx
     const STATUS_CONTINUE = 100;

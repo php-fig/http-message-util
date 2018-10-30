@@ -16,9 +16,9 @@
         "psr/http-message": "The package containing the PSR-7 interfaces"
     },
     "autoload": {
-        "psr-4": {
-            "Fig\\Http\\Message\\": "src/"
-        }
+        "files": [
+            "constants.php"
+        ]
     },
     "extra": {
         "branch-alias": {
