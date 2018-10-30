@@ -8,7 +8,7 @@
  * <code>
  * use Fig\Http\Message\Request;
  *
- * class RequestFactory implements RequestMethodInterface
+ * class RequestFactory
  * {
  *     public static function factory(
  *         $uri = '/',
@@ -60,7 +60,7 @@ namespace Fig\Http\Message\Request
  * <code>
  * use Fig\Http\Message\Response;
  *
- * class ResponseFactory implements StatusCodeInterface
+ * class ResponseFactory
  * {
  *     public function createResponse($code = Response\STATUS_OK)
  *     {
