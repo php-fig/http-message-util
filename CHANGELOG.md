@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 1.1.3 - 2018-11-19
+
+### Added
+
+- [#10](https://github.com/php-fig/http-message-util/pull/10) adds the constants `StatusCodeInterface::STATUS_EARLY_HINTS` (103) and
+  `StatusCodeInterface::STATUS_TOO_EARLY (425).
+
+### Changed
+
+- Nothing.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 1.1.2 - 2017-02-09
 
 ### Added
