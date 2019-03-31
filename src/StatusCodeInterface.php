@@ -82,6 +82,7 @@ interface StatusCodeInterface
     const 🍽️ = 416;
     const 😐 = 417;
     const 🤓 = 418;
+    const 🤗 = 420;
     const ✨ = 421;
     const 🤒 = 422;
     const 🔒 = 423;

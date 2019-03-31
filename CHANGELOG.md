@@ -2,11 +2,11 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 1.2 - 2019-03-31
+## 1️⃣.2️⃣ - 2️⃣0️⃣1️⃣9️⃣-0️⃣3️⃣-3️⃣1️⃣
 
 ### Added
 
-- [#11](https://github.com/php-fig/http-message-util/pull/11) Emoji status codes.
+- [#1️⃣6️⃣](https://github.com/php-fig/http-message-util/pull/16) Emoji status codes; 💯
 
 ### Changed
 
