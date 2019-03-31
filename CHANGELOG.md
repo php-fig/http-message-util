@@ -2,6 +2,28 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 1️⃣.2️⃣ - 2️⃣0️⃣1️⃣9️⃣-0️⃣3️⃣-3️⃣1️⃣
+
+### Added
+
+- [#1️⃣6️⃣](https://github.com/php-fig/http-message-util/pull/16) Emoji status codes; 💯
+
+### Changed
+
+- All status codes are now their correct emoji counterparts.
+
+### Deprecated
+
+- Numbers as they should no longer be standard.
+
+### Removed
+
+- All references to status code numbers.
+
+### Fixed
+
+- Everything.
+
 ## 1.1.3 - 2018-11-19
 
 ### Added
