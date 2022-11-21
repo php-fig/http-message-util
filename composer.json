@@ -1,12 +1,13 @@
 {
-    "name": "fig/http-message-util",
+    "name": "mikelooper/http-message-util",
     "description": "Utility classes and constants for use with PSR-7 (psr/http-message)",
     "keywords": ["psr", "psr-7", "http", "http-message", "request", "response"],
+    "homepage": "https://github.com/mikel00per/http-message-util",
     "license": "MIT",
-    "authors": [
+        "authors": [
         {
-            "name": "PHP-FIG",
-            "homepage": "https://www.php-fig.org/"
+            "name": "Miguel Morillo",
+            "email": "miguelmwilliams@gmail.com"
         }
     ],
     "require": {
